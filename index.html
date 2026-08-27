@@ -66,7 +66,11 @@
   grant the permission. Audio is analyzed <strong>entirely on your device</strong> using an
   on-device machine-learning model (sound event classification).</p>
   <ul>
-    <li><strong>Raw audio is never stored, saved to files, or uploaded.</strong></li>
+    <li><strong>By default, raw audio is never stored, saved to files, or uploaded.</strong></li>
+    <li>Only if you explicitly enable <strong>"Record snore moments"</strong> in Settings,
+      short audio clips of detected moments (about 15 seconds each, up to 20 per night)
+      are saved <strong>on your device only</strong>. Clips are never uploaded, and you can
+      delete them anytime by deleting a report or via "Delete all saved recordings" in Settings.</li>
     <li>Only event labels (e.g., "snoring", "noise") with timestamps are kept on the device
       so the morning report can be shown.</li>
     <li>Analysis runs as a visible foreground service with a notification while active.</li>
